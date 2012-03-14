@@ -1,0 +1,273 @@
+body {
+	background-color:#3f3f3f;
+	font-family:helvetica;
+	font-size:12px;
+	letter-spacing:1px;
+	font-weight:lighter;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	overflow:visible;
+	background-image:url("street.png");
+	background-repeat:no-repeat;
+
+	
+	
+}
+
+a {
+	color: #000;
+	text-decoration:none;
+}
+ 
+a:hover {
+	color:#606060;	
+}
+
+em {
+	margin:0 0 0 50px;
+	padding: 0 0 0 10px;
+}
+
+strong {
+	color:#e5c927;
+	font-size:35px;
+	margin:10px;
+	font-weight:lighter;
+	font-family:arial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: lighter;
+}
+
+h1{
+	margin:20px 0px -20px 50px;
+	
+}
+
+h4 {
+	font-size:24px;
+}
+
+h5 {
+	float:right;
+	font-size:24px;
+	margin:20px 0px 20px 0px;
+	padding:0px 5px;
+}
+
+h5 img{
+	margin-bottom:-5px;
+}
+
+h6 {
+	float:right;
+	color:#606060;
+	padding:0px 230px 0px 0px;
+	margin:0;
+}
+
+ul {
+	margin: 0px 0px;
+	padding: 0px 0px 0px 15px;
+}
+
+iframe{
+	height:435px;
+	width:1040px;
+	margin-left:px;
+	/*border-radius:15px;*/
+	/*box-shadow:0px 1px 10px 1px #2d2d2d;*/
+	overflow:visible;
+	z-index:;
+
+}
+
+
+
+
+#main {
+	width: 1040px;
+	margin: 0 auto;
+	/*background-color:#a5bfdd;*/
+	/*background-color:#f4f3f0;*/
+	/*background-color:#c0c0c0;*/
+	/*background-color:#e1a339;*/
+	/*background-color:#cadeb0;*/
+	/*background-color:#edb2cf;*/
+	background-color:#dfd9d2;
+	position: relative;
+    box-shadow:0.1em 0.1em 1em 0.3em #000;
+	border-radius:0px 0px 15px 15px;
+	/*background-image:url(background.png);*/
+}
+
+#nav { 
+	float:left;
+	width:px;
+	margin:30px 0px 0px 70px;
+	position: relative;
+	
+}
+
+
+#nav ul {
+	padding:0px 0px 0px 340px;
+	font-size:24px;
+	list-style:none;
+	letter-spacing:1px;
+}
+
+#nav li {
+	margin:22px 60px 50px 10px;
+	padding:0px 0px;
+	list-style:none;
+	float:left;
+
+}
+
+#nav ul li a {
+	font-size:27px;
+	
+		
+}
+
+#map {
+	float:left;
+	width:1040px;
+	/*border-radius:15px;*/
+	margin:0px 0px 20px 0px;
+	border:none 1px solid #111;
+    box-shadow:#606060;
+  -webkit-box-shadow: inset 0px 0px 1px rgba(0,0,0,0.5);
+       -moz-box-shadow: inset 0px 0px 1px rgba(0,0,0,0.5);
+            box-shadow: inset 0px 0px 10px rgba(0,0,0,1);
+    
+}
+
+.logo {
+	position:absolute;
+	top: 15px;
+	left: 60px;
+}
+
+
+
+#footer a {
+	float:right;
+    color:#000;
+	padding:0;
+	margin:0px 60px 30px 0px;
+}
+
+#footer ul li {
+	display:inline;
+	margin: 0px 10px;
+}
+
+#footer ul li a {
+	float:left;
+	margin: 0 0 0 50px;
+}
+
+#footer a:hover {
+	color:#606060;
+}
+
+/* float clearing for IE6 */
+* html .clearfix{
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .clearfix{
+  min-height: 1%;
+}
+
+/* float clearing for everyone else */
+.clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+
+#textbox {
+	float:left;
+	overflow:visible;
+	border:2px, #000;
+	height:400px;
+	width:920px;
+	padding:0px 0px 0px 0px;
+	margin:50px 0px 20px 60px;
+	box-shadow:0px 1px 10px 1px #2d2d2d;
+	border-radius:10px;
+	background-color:#606060;
+	background-image: linear-gradient(bottom, rgb(66,66,66) 4%, rgb(163,163,163) 52%, rgb(201,201,201) 76%);
+	background-image: -o-linear-gradient(bottom, rgb(66,66,66) 4%, rgb(163,163,163) 52%, rgb(201,201,201) 76%);
+	background-image: -moz-linear-gradient(bottom, rgb(66,66,66) 4%, rgb(163,163,163) 52%, rgb(201,201,201) 76%);
+	background-image: -webkit-linear-gradient(bottom, rgb(66,66,66) 4%, rgb(163,163,163) 52%, rgb(201,201,201) 76%);
+	background-image: -ms-linear-gradient(bottom, rgb(66,66,66) 4%, rgb(163,163,163) 52%, rgb(201,201,201) 76%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.04, rgb(66,66,66)),
+		color-stop(0.52, rgb(163,163,163)),
+		color-stop(0.76, rgb(201,201,201))
+	);
+
+
+}
+
+
+.left {
+	float:left;
+	height:400px;
+	width:260px;
+	margin:30px 30px 0px 30px;
+	border:none 1px solid #111;
+	background-color:transparent;
+	padding:0px 0px 0px 0px;
+}
+
+.right {
+	float:left;
+	height:100%;
+	width:272px;
+	margin:30px 0px 0px 0px;
+	border:none 1px solid #111;
+	background-image:url(fadeline.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	padding: 0px 18px 0px 30px;
+	
+}
+
+.phone {
+	float:left;
+	height:390px;
+	width:200px;
+	margin: -30px 30px 0px 40px;
+	
+}
+
+.line {
+	height:340px;
+	width:1px;
+}
+
+.verline {
+	float:left;
+	width:10px;
+	margin-left:30px;
+	margin-top:30px;
+}
+
+
+
